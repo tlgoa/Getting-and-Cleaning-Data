@@ -18,7 +18,7 @@ The following files from the initial dataset is used:
 
   ***codeBook.md*** a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 
-  ***run_analysis.R*** performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
+  ***run_analysis.R*** performs the data preparation and then followed by a parallel path to the 5 steps required as described in the course project’s definition:
   1. Downloads to R ids and descriptions for features being measured in experiment from file ***features.txt***
   2. Independently loads complete data for train and test sets. Let's revoke these loading process considering train set:  
       a. Firstly loads the measurements from ***X_train.txt*** as a data frame  
