@@ -28,4 +28,4 @@ The following files from the initial dataset is used:
   4. To provide descriptive values for activity labels a new variable *"activitylabel"* is added to dataset, that is a factor variable with levels mentioned in file activity_labels.txt (**STEP 3**: *Use descriptive activity names to name the activities in the data set* of assignment)
   5. Creates a melted data frame using activity label and subject as ids, after that mean values for all variables are calculated grouped by activity and subject using dcast() function and tidy data frame is created. (**STEP 5**: *Create a second, independent tidy data set with the average of each variable for each activity and each subject*)
  
-  ***FinalData.txt*** is the exported final data after going through all the sequences described above.
+  ***tidydataset.txt*** is the exported final data after going through all the sequences described above.
